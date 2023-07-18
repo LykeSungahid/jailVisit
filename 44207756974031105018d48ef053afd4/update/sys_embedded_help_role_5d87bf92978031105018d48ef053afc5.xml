@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1087004_jail_vis.appointments_user" name="x_1087004_jail_vis.appointments_user">5987bf92978031105018d48ef053afc4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2023-07-18 02:04:17</sys_created_on>
+        <sys_id>5d87bf92978031105018d48ef053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5987bf92978031105018d48ef053afc4</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5d87bf92978031105018d48ef053afc5</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2023-07-18 02:04:17</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

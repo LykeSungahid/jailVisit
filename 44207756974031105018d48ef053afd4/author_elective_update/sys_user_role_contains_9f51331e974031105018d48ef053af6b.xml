@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1087004_jail_vis.visitors" name="x_1087004_jail_vis.visitors">8e803f5a974031105018d48ef053af96</contains>
+        <role display_value="x_1087004_jail_vis.staff" name="x_1087004_jail_vis.staff">4e80bf5a974031105018d48ef053afe5</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-18 01:37:24</sys_created_on>
+        <sys_id>9f51331e974031105018d48ef053af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1087004_jail_vis.visitors.x_1087004_jail_vis.staff</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_user_role_contains_9f51331e974031105018d48ef053af6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-18 01:37:24</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jail Visit">44207756974031105018d48ef053afd4</application>
+        <file_path/>
+        <instance_id>581c457bdb5bd384536ad5b0cf9619a4</instance_id>
+        <instance_name>dev66271</instance_name>
+        <name>sys_user_role_contains_9f51331e974031105018d48ef053af6b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1087004_jail_vis.visitors" name="x_1087004_jail_vis.visitors">8e803f5a974031105018d48ef053af96</contains><role display_value="x_1087004_jail_vis.staff" name="x_1087004_jail_vis.staff">4e80bf5a974031105018d48ef053afe5</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-18 01:37:24</sys_created_on><sys_id>9f51331e974031105018d48ef053af6b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1087004_jail_vis.visitors.x_1087004_jail_vis.staff</sys_name><sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package><sys_policy/><sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope><sys_update_name>sys_user_role_contains_9f51331e974031105018d48ef053af6b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-18 01:37:24</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>671549245</payload_hash>
+        <record_name>x_1087004_jail_vis.visitors.x_1087004_jail_vis.staff</record_name>
+        <reverted_from/>
+        <source>c020b79a974031105018d48ef053af57</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-18 01:37:24</sys_created_on>
+        <sys_id>a351731e974031105018d48ef053af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18966a51f9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-18 01:37:24</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>eb51731e48403110e8c3b4ca0218e635</update_guid>
+        <update_guid_history>eb51731e48403110e8c3b4ca0218e635:671549245</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-18 01:44:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>4a60a017b57148b6885e111842790984</sys_id>
+        <sys_metadata>9f51331e974031105018d48ef053af6b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1087004_jail_vis.visitors.x_1087004_jail_vis.staff</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_scope_delete display_value="">033d375b62b742618062a5ef9d11b261</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_9f51331e974031105018d48ef053af6b</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_9f51331e974031105018d48ef053af6b">a351731e974031105018d48ef053af36</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-18 01:44:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
