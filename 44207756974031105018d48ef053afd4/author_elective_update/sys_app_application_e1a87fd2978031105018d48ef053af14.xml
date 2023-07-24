@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Appointments</name>
+        <order>100</order>
+        <roles>x_1087004_jail_vis.facility_manager</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2023-07-18 02:09:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1a87fd2978031105018d48ef053af14</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_app_application_e1a87fd2978031105018d48ef053af14</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2023-07-18 02:38:15</sys_updated_on>
+        <title>All</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jail Visit">44207756974031105018d48ef053afd4</application>
+        <file_path/>
+        <instance_id>581c457bdb5bd384536ad5b0cf9619a4</instance_id>
+        <instance_name>dev66271</instance_name>
+        <name>sys_app_application_e1a87fd2978031105018d48ef053af14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Appointments</name><order>100</order><roles>x_1087004_jail_vis.facility_manager</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin2</sys_created_by><sys_created_on>2023-07-18 02:09:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e1a87fd2978031105018d48ef053af14</sys_id><sys_mod_count>1</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package><sys_policy/><sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope><sys_update_name>sys_app_application_e1a87fd2978031105018d48ef053af14</sys_update_name><sys_updated_by>admin2</sys_updated_by><sys_updated_on>2023-07-18 02:38:15</sys_updated_on><title>All</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>661290844</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>c020b79a974031105018d48ef053af57</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2023-07-18 02:38:15</sys_created_on>
+        <sys_id>3a4ffb5a978031105018d48ef053af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18966dcd3100000001</sys_recorded_at>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2023-07-18 02:38:15</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>724ffb5a8380311040c9f4cf8df6f34c</update_guid>
+        <update_guid_history>724ffb5a8380311040c9f4cf8df6f34c:661290844,6da87fd24780311085d9d15781b66815:1987696917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All">83860787974431105018d48ef053afbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2023-07-20 06:25:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>29ad226f8af540918c11eb5a6544e3a9</sys_id>
+        <sys_metadata>e1a87fd2978031105018d48ef053af14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_scope_delete display_value="">033d375b62b742618062a5ef9d11b261</sys_scope_delete>
+        <sys_update_name>sys_app_application_e1a87fd2978031105018d48ef053af14</sys_update_name>
+        <sys_update_version display_value="sys_app_application_e1a87fd2978031105018d48ef053af14">3a4ffb5a978031105018d48ef053af4c</sys_update_version>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2023-07-20 06:25:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
