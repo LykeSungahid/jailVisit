@@ -14,6 +14,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_day</element>
+            <position>2</position>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2023-07-24 07:37:58</sys_created_on>
+            <sys_id>ff6d7714979431105018d48ef053af8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1087004_jail_vis_calendar_days" sys_domain="global" view="Default view">96c61b47978431105018d48ef053af09</sys_ui_section>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2023-07-24 07:37:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

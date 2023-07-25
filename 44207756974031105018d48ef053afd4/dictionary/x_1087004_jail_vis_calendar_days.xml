@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fd37f792978031105018d48ef053af61" label="Calendar_Days" max_length="40" name="x_1087004_jail_vis_calendar_days" type="collection">
         <element label="Date" mandatory="true" max_length="20" name="date" type="glide_date"/>
+        <element choice="3" default="Business Day" label="Type of Day" mandatory="true" max_length="20" name="type_of_day" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Business Day" value="Business Day"/>
+                <element inactive_on_update="false" label="Regular Holiday" sequence="0" value="Regular Holiday"/>
+                <element inactive_on_update="false" label="Working Holiday" sequence="1" value="Working Holiday"/>
+            </choice>
+        </element>
     </element>
 </database>

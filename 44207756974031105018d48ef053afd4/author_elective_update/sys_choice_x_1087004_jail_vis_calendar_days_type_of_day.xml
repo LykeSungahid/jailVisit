@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_day" table="x_1087004_jail_vis_calendar_days" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_day</element>
+            <name>x_1087004_jail_vis_calendar_days</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2023-07-24 07:59:51</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_day</sys_name>
+            <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+            <sys_update_name>sys_choice_x_1087004_jail_vis_calendar_days_type_of_day</sys_update_name>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2023-07-24 07:59:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Day</label>
+            <language>en</language>
+            <name>x_1087004_jail_vis_calendar_days</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2023-07-24 08:06:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22d300e8979431105018d48ef053afb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2023-07-24 08:06:05</sys_updated_on>
+            <value>Business Day</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regular Holiday</label>
+            <language>en</language>
+            <name>x_1087004_jail_vis_calendar_days</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2023-07-24 07:59:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98720868979431105018d48ef053afe1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2023-07-24 07:59:51</sys_updated_on>
+            <value>Regular Holiday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Working Holiday</label>
+            <language>en</language>
+            <name>x_1087004_jail_vis_calendar_days</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin2</sys_created_by>
+            <sys_created_on>2023-07-24 07:59:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c720868979431105018d48ef053afe3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin2</sys_updated_by>
+            <sys_updated_on>2023-07-24 07:59:51</sys_updated_on>
+            <value>Working Holiday</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
