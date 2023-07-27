@@ -2,28 +2,28 @@
     <sys_app_application action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
-        <description>list of all open scheduled appointments</description>
+        <description>Menu for facility managers to check the appointments for approval</description>
         <device_type>browser</device_type>
-        <hint/>
+        <hint>Check appointments for approval</hint>
         <name/>
         <order>100</order>
-        <roles>x_1087004_jail_vis.visitors</roles>
+        <roles>x_1087004_jail_vis.facility_manager</roles>
         <sys_class_name>sys_app_application</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-18 02:35:35</sys_created_on>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2023-07-27 01:10:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>624e3f9a978031105018d48ef053af5e</sys_id>
+        <sys_id>8d51429d9754b1105018d48ef053af2a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>My appointments</sys_name>
+        <sys_name>Approvals</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
-        <sys_update_name>sys_app_application_624e3f9a978031105018d48ef053af5e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-18 02:35:35</sys_updated_on>
-        <title>My appointments</title>
+        <sys_update_name>sys_app_application_8d51429d9754b1105018d48ef053af2a</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2023-07-27 01:10:48</sys_updated_on>
+        <title>Approvals</title>
         <view_name/>
     </sys_app_application>
 </record_update>
