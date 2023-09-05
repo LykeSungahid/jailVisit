@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Schedule Appointments">b3749393978031105018d48ef053af91</sc_cat_item>
+        <sc_category/>
+        <short_description>Create your appointments here</short_description>
+        <size>md</size>
+        <sp_column display_value="1">1ea838c0974571105018d48ef053af0e</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 05:27:03</sys_created_on>
+        <sys_id>41b8b8c0974571105018d48ef053af1f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Schedule Appointments</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sp_instance_link_41b8b8c0974571105018d48ef053af1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 05:28:24</sys_updated_on>
+        <title>Schedule Appointments</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=41b8b8c0974571105018d48ef053af1f"/>
+</record_update>

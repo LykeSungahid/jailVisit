@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_req_item">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,cat_item.picture,short_description,price,recurring_price,recurring_frequency,state,number,cat_item.name</field_list>
+        <name>My Requests - Requested item predicate</name>
+        <order/>
+        <predicate_bundle display_value="My requests - reqested item bundle">b598fa664790311040064b0ca7ab0c2c</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-31 02:23:34</sys_created_on>
+        <sys_id>f198fa666e903110a793db0d1265b92b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests - Requested item predicate</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_f198fa666e903110a793db0d1265b92b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-31 02:23:34</sys_updated_on>
+        <table>sc_req_item</table>
+        <ux_template display_value="Custom Portal Landing - My Requests template">f598fa66cd903110bb5b43cc3b09d32b</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

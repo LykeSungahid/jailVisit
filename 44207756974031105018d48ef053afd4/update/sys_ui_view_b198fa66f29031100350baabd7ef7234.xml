@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom_portal_settings_x_1087004_jail_vis</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-31 02:23:34</sys_created_on>
+        <sys_id>b198fa66f29031100350baabd7ef7234</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom portal settings (x_1087004_jail_vis)</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_ui_view_b198fa66f29031100350baabd7ef7234</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-31 02:23:34</sys_updated_on>
+        <title>Custom portal settings (x_1087004_jail_vis)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

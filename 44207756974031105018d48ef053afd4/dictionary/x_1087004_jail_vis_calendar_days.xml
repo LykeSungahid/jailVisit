@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fd37f792978031105018d48ef053af61" label="Calendar_Days" max_length="40" name="x_1087004_jail_vis_calendar_days" type="collection">
+    <element db_object_id="fd37f792978031105018d48ef053af61" label="Calendar_Days" max_length="40" name="x_1087004_jail_vis_calendar_days" text_index="true" type="collection">
         <element label="Date" mandatory="true" max_length="20" name="date" type="glide_date"/>
         <element choice="3" default="Business Day" label="Type of Day" mandatory="true" max_length="20" name="type_of_day" type="choice">
             <choice>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="Schedule Appointments">b3749393978031105018d48ef053af91</cat_item>
         <category/>
@@ -28,18 +28,18 @@
         <instructions><![CDATA[<p>Enter your name who is applying for the visit appointment</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>user_name</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>sys_user</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>user_name</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>applicant</name>
+        <name>app</name>
         <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -53,9 +53,11 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1087004_jail_vis_appointments</record_producer_table>
-        <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference>sys_user</reference>
+        <reference_qual>roles=x_1087004_jail_vis.visitors^NQsys_id=javascript:gs.getUserID()</reference_qual>
+        <reference_qual_condition table="sys_user">roles=x_1087004_jail_vis.visitors^NQsys_id=javascript:gs.getUserID()<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_1087004_jail_vis.visitors"/>
+            <item endquery="false" field="sys_id" goto="false" newquery="true" operator="=" or="false" value="javascript:gs.getUserID()"/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,17 +77,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-26 00:10:29</sys_created_on>
         <sys_id>d8e9e449979071105018d48ef053af23</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Who is going applying for the appointment</sys_name>
         <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
         <sys_update_name>item_option_new_d8e9e449979071105018d48ef053af23</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-26 01:12:10</sys_updated_on>
+        <sys_updated_on>2023-08-31 05:28:36</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

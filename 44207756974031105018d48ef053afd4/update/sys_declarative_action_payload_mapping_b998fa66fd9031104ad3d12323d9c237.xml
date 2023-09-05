@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Approve">3198fa667e90311055f3e51069967c38</action_payload_definition>
+        <label>Approve Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-31 02:23:33</sys_created_on>
+        <sys_id>b998fa66fd9031104ad3d12323d9c237</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Evam</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_b998fa66fd9031104ad3d12323d9c237</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-31 02:23:33</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

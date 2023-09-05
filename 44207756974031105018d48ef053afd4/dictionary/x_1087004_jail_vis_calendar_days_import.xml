@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a8587286978975105018d48ef053aff9" extends="sys_import_set_row" label="Calendar Days Import" max_length="40" name="x_1087004_jail_vis_calendar_days_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type of Day" label="Type of Day" max_length="40" name="u_type_of_day" type="string"/>
+    </element>
+</database>

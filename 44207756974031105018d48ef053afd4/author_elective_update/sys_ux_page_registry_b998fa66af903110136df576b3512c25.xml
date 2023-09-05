@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>a198fa66979031105018d48ef053af0a</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>jail-visit-visitors</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-31 02:23:35</sys_created_on>
+        <sys_id>b998fa66af903110136df576b3512c25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jail Visit Visitors</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_ux_page_registry_b998fa66af903110136df576b3512c25</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-31 02:23:35</sys_updated_on>
+        <title>Jail Visit Visitors</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jail Visit">44207756974031105018d48ef053afd4</application>
+        <file_path/>
+        <instance_id>581c457bdb5bd384536ad5b0cf9619a4</instance_id>
+        <instance_name>dev66271</instance_name>
+        <name>sys_ux_page_registry_b998fa66af903110136df576b3512c25</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>a198fa66979031105018d48ef053af0a</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>jail-visit-visitors</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-07-31 02:23:35</sys_created_on><sys_id>b998fa66af903110136df576b3512c25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Jail Visit Visitors</sys_name><sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package><sys_policy/><sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope><sys_update_name>sys_ux_page_registry_b998fa66af903110136df576b3512c25</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-07-31 02:23:35</sys_updated_on><title>Jail Visit Visitors</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>235397446</payload_hash>
+        <record_name>Jail Visit Visitors</record_name>
+        <reverted_from/>
+        <source>31e3d410973321105018d48ef053af2f</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-06-28 18:06:17</sys_created_on>
+        <sys_id>649f0f2e97d031105018d48ef053aff6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189032f45a80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>249f0f2e96d03110c22656679e670cf6</update_guid>
+        <update_guid_history>249f0f2e96d03110c22656679e670cf6:235397446</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-31 04:03:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>9d5bd7ef70b54d7caf5e939cc18a1de4</sys_id>
+        <sys_metadata>b998fa66af903110136df576b3512c25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Jail Visit Visitors</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_scope_delete display_value="">033d375b62b742618062a5ef9d11b261</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_b998fa66af903110136df576b3512c25</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_b998fa66af903110136df576b3512c25">649f0f2e97d031105018d48ef053aff6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-31 04:03:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

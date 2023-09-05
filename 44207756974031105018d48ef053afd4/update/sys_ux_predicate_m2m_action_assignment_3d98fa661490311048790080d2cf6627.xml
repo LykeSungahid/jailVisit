@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">7198fa665990311063aead2519169038</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">b998fa667c903110ad49aafdee75a52a</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-31 02:23:32</sys_created_on>
+        <sys_id>3d98fa661490311048790080d2cf6627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_3d98fa661490311048790080d2cf6627</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-31 02:23:32</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Jail Visit">8a2f3c482b45711095fd975dc1f94c38</page>
+        <required_translations>[ {
+  "message" : "New Appointments",
+  "comment" : ""
+}, {
+  "message" : "New Calendar_Days",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Prison_Rooms",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 05:55:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ca2f3c4801457110e49ccc2364fc043b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_ux_page_property_ca2f3c4801457110e49ccc2364fc043b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 05:55:27</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1087004_jail_vis.8a2f3c482b45711095fd975dc1f94c38.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Calendar_Days"},"routeInfo":{"route":"record","fields":{"table":"x_1087004_jail_vis_calendar_days","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1087004_jail_vis_calendar_days","canCreate":true}}},{"label":{"translatable":true,"message":"New Prison_Rooms"},"routeInfo":{"route":"record","fields":{"table":"x_1087004_jail_vis_prison_rooms","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1087004_jail_vis_prison_rooms","canCreate":true}}},{"label":{"translatable":true,"message":"New Appointments"},"routeInfo":{"route":"record","fields":{"table":"x_1087004_jail_vis_appointments","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1087004_jail_vis_appointments","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca2f3c4801457110e49ccc2364fc043b"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="Staff" name="Staff">cda3f586978575105018d48ef053af18</group_id>
+        <report_id display_value="Frequently Used Area Per Week">85cd0f8a97c975105018d48ef053afce</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin2</sys_created_by>
+        <sys_created_on>2023-09-04 21:58:22</sys_created_on>
+        <sys_id>2025d782970d75105018d48ef053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>85cd0f8a97c975105018d48ef053afce</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_report_users_groups_2025d782970d75105018d48ef053afcb</sys_update_name>
+        <sys_updated_by>admin2</sys_updated_by>
+        <sys_updated_on>2023-09-04 21:58:22</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>

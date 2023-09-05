@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>All fields would be read only after the user has submitted a record</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Read-only after submit</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(!g_form.isNewRecord()) {
+  //***Change the column names [1st parameter] as per your needs****//
+	if(!g_user.hasRole('x_1087004_jail_vis.staff')){
+       g_form.setReadOnly('area', true);
+       g_form.setReadOnly('number_of_visitors', true);
+       g_form.setReadOnly('number', true);
+       g_form.setReadOnly('inmate', true);
+       g_form.setReadOnly('applicant', true);
+       g_form.setReadOnly('reason_inquiry', true);
+       g_form.setReadOnly('assigned_t0', true);
+       g_form.setReadOnly('state', true);
+       g_form.setReadOnly('date_time', true);
+       g_form.clearOptions('approva0');
+       g_form.addOption("approva0","pending","Pending");
+       g_form.addOption("approva0","cancelled","Cancel");
+      }
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 05:16:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebf6c41a972431105018d48ef053af62</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Read-only after submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_script_client_ebf6c41a972431105018d48ef053af62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-31 06:30:30</sys_updated_on>
+        <table>x_1087004_jail_vis_appointments</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

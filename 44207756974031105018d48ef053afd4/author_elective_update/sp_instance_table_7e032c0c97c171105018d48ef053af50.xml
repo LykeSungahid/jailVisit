@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">92a0a00497c171105018d48ef053afba</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Table Reference">1dbb29f147001200ba13a5554ee49014</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 03:52:25</sys_created_on>
+        <sys_id>7e032c0c97c171105018d48ef053af50</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sp_instance_table_7e032c0c97c171105018d48ef053af50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 03:54:09</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=7e032c0c97c171105018d48ef053af50"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jail Visit">44207756974031105018d48ef053afd4</application>
+        <file_path/>
+        <instance_id>581c457bdb5bd384536ad5b0cf9619a4</instance_id>
+        <instance_name>dev66271</instance_name>
+        <name>sp_instance_table_7e032c0c97c171105018d48ef053af50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">92a0a00497c171105018d48ef053afba</sp_column><sp_page/><sp_widget display_value="Table Reference">1dbb29f147001200ba13a5554ee49014</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-29 03:52:25</sys_created_on><sys_id>7e032c0c97c171105018d48ef053af50</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package><sys_policy/><sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope><sys_update_name>sp_instance_table_7e032c0c97c171105018d48ef053af50</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-29 03:54:09</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=7e032c0c97c171105018d48ef053af50"/></record_update>]]></payload>
+        <payload_hash>-507015192</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9e5c86199794b1105018d48ef053afc4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 03:54:09</sys_created_on>
+        <sys_id>8073e4cc97c171105018d48ef053af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a3f6d67db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 03:54:09</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>8873e4cc76c1711097e72ec99007c130</update_guid>
+        <update_guid_history>8873e4cc76c1711097e72ec99007c130:-507015192,7d63a4cc18c171104b3a7827c88d1f5b:-396693167,b2032c0cb2c17110ea294f0b8d26ae53:-507015192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4ca3a4cc97c171105018d48ef053af63</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 03:54:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>22b5d811460b4bc6bc99e44160746cc4</sys_id>
+        <sys_metadata>7e032c0c97c171105018d48ef053af50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_scope_delete display_value="">033d375b62b742618062a5ef9d11b261</sys_scope_delete>
+        <sys_update_name>sp_instance_table_7e032c0c97c171105018d48ef053af50</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_7e032c0c97c171105018d48ef053af50">8073e4cc97c171105018d48ef053af31</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 03:54:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

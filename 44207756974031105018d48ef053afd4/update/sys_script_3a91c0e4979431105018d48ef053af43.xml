@@ -27,9 +27,9 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*, gdt, gsLog*/) {
-    var startDate = new Date('2023-01-01'); // Start date for generating calendar records
-    var endDate = new Date('2023-12-31');   // End date for generating calendar records
+        <script><![CDATA[(function executeRule(current, previous) {
+    var startDate = new Date('2023-06-01'); // Start date for generating calendar records
+    var endDate = new Date('2023-7-31');   // End date for generating calendar records
 
     var currentDate = new Date(startDate);
     var calendarDays = [];
@@ -41,7 +41,6 @@
         newRecord.type = 'Business Day';
         newRecord.insert();
         
-        // Increment to the next day
         currentDate.setDate(currentDate.getDate() + 1);
     }
 })(current, previous);]]></script>
@@ -51,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3a91c0e4979431105018d48ef053af43</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Add Calendar Days</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
@@ -59,7 +58,7 @@
         <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
         <sys_update_name>sys_script_3a91c0e4979431105018d48ef053af43</sys_update_name>
         <sys_updated_by>admin2</sys_updated_by>
-        <sys_updated_on>2023-07-24 07:58:54</sys_updated_on>
+        <sys_updated_on>2023-09-05 00:04:47</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

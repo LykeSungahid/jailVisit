@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="bbe63392978031105018d48ef053afe0" label="Prison_Rooms" max_length="40" name="x_1087004_jail_vis_prison_rooms" type="collection">
+    <element db_object_id="bbe63392978031105018d48ef053afe0" label="Prison_Rooms" max_length="40" name="x_1087004_jail_vis_prison_rooms" text_index="true" type="collection">
         <element choice="3" default="Public" label="Accessibility" mandatory="true" max_length="40" name="accessibility" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Private" sequence="0" value="Private"/>
+                <element inactive_on_update="false" label="Public" sequence="0" value="Public"/>
                 <element inactive_on_update="false" label="Single" sequence="0" value="single"/>
                 <element inactive_on_update="false" label="Private Room" sequence="1" value="private_room"/>
             </choice>

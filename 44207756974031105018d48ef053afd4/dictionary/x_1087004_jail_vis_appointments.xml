@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="7548bbd2978031105018d48ef053af1d" extends="task" label="Appointments" max_length="40" name="x_1087004_jail_vis_appointments" type="collection">
-        <element label="Applicant" max_length="32" name="applicant" reference="sys_user" type="reference"/>
+    <element db_object_id="7548bbd2978031105018d48ef053af1d" extends="task" label="Appointments" max_length="40" name="x_1087004_jail_vis_appointments" text_index="true" type="collection">
+        <element label="Applicant" max_length="32" name="applicant" read_only="true" reference="sys_user" type="reference"/>
         <element choice="3" default="pending" label="Approval" max_length="40" name="approva0" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
@@ -11,8 +11,10 @@
         </element>
         <element label="Area" max_length="32" name="area" reference="x_1087004_jail_vis_prison_rooms" type="reference"/>
         <element label="Assigned To" max_length="32" name="assigned_t0" reference="sys_user" type="reference"/>
+        <element label="Date" max_length="40" name="date" reference="x_1087004_jail_vis_calendar_days" type="glide_date"/>
         <element label="Date &amp; Time" max_length="40" name="date_time" type="calendar_date_time"/>
-        <element label="Inmate" max_length="32" name="inmate" reference="sys_user" type="reference"/>
+        <element label="Inmate" max_length="32" name="inmate" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Minutes" max_length="40" name="minutes" type="integer"/>
         <element label="Number of visitors" max_length="40" name="number_of_visitors" type="integer"/>
         <element label="Reason/Inquiry" max_length="200" name="reason_inquiry" type="string"/>
         <element choice="3" default="open" label="State" max_length="40" name="stat0" type="choice">

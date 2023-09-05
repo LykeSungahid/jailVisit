@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Jail Visit">8a2f3c4837457110187476f2ddebcd37</dashboard>
+        <group/>
+        <role display_value="x_1087004_jail_vis.staff" name="x_1087004_jail_vis.staff">4e80bf5a974031105018d48ef053afe5</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 05:55:18</sys_created_on>
+        <sys_id>b62f7c48974571105018d48ef053af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8a2f3c4837457110187476f2ddebcd37</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>par_dashboard_permission_b62f7c48974571105018d48ef053af02</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 05:55:18</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

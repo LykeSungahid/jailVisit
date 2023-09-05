@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>date_time</display_field>
+        <field_list/>
+        <filter table="x_1087004_jail_vis_appointments">applicantDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="applicant" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </filter>
+        <glyph>signal</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">92a0a00497c171105018d48ef053afba</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 03:57:07</sys_created_on>
+        <sys_id>af146c8897c171105018d48ef053afab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sp_instance_vlist_af146c8897c171105018d48ef053afab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 04:03:12</sys_updated_on>
+        <table>x_1087004_jail_vis_appointments</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "approva0",
+		"displayValue": "approva0"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=af146c8897c171105018d48ef053afab"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Jail Visit">44207756974031105018d48ef053afd4</application>
+        <file_path/>
+        <instance_id>581c457bdb5bd384536ad5b0cf9619a4</instance_id>
+        <instance_name>dev66271</instance_name>
+        <name>sp_instance_vlist_af146c8897c171105018d48ef053afab</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;date_time&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="x_1087004_jail_vis_appointments"&gt;applicantDYNAMIC90d1921e5f510100a9ad2572f2b477fe&lt;item endquery="false" field="applicant" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;/filter&gt;&lt;glyph&gt;signal&lt;/glyph&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;92a0a00497c171105018d48ef053afba&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-29 03:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;af146c8897c171105018d48ef053afab&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Jail Visit" source="x_1087004_jail_vis"&gt;44207756974031105018d48ef053afd4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Jail Visit"&gt;44207756974031105018d48ef053afd4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_af146c8897c171105018d48ef053afab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-29 04:03:12&lt;/sys_updated_on&gt;&lt;table&gt;x_1087004_jail_vis_appointments&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "approva0",
+		"displayValue": "approva0"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=af146c8897c171105018d48ef053afab"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>426464756</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9e5c86199794b1105018d48ef053afc4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 04:03:13</sys_created_on>
+        <sys_id>f4856840970571105018d48ef053af05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a3f75b4d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 04:03:13</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>fc8568401d057110f82b8521c8408104</update_guid>
+        <update_guid_history>fc8568401d057110f82b8521c8408104:426464756,b974a400c205711047de422addae4014:351059160,e714a000da057110984453e4e8af8a9a:235285910</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5826ac40970571105018d48ef053af9f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 04:05:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>20300c7b4b3941e882b718ca73633490</sys_id>
+        <sys_metadata>af146c8897c171105018d48ef053afab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_scope_delete display_value="">033d375b62b742618062a5ef9d11b261</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_af146c8897c171105018d48ef053afab</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_af146c8897c171105018d48ef053afab">f4856840970571105018d48ef053af05</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 04:05:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

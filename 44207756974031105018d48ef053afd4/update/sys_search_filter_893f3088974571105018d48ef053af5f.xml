@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Prison_Rooms">0d3f3088974571105018d48ef053af5a</ais_search_source>
+        <label>Prison_Rooms</label>
+        <name>Prison_Rooms</name>
+        <order>300</order>
+        <search_context_config display_value="Jail Visit AI Search Configuration">4e2f3c4835457110e26c248783430739</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-29 05:55:28</sys_created_on>
+        <sys_id>893f3088974571105018d48ef053af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prison_Rooms</sys_name>
+        <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
+        <sys_update_name>sys_search_filter_893f3088974571105018d48ef053af5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-29 05:55:28</sys_updated_on>
+    </sys_search_filter>
+</record_update>

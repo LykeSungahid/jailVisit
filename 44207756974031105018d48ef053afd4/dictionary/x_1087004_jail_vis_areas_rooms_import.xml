@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a89673c2978d75105018d48ef053afb7" extends="sys_import_set_row" label="Areas/Rooms Import" max_length="40" name="x_1087004_jail_vis_areas_rooms_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Accessibility" label="Accessibility" max_length="40" name="u_accessibility" type="string"/>
+        <element attributes="import_attribute_name=Capacity" label="Capacity" max_length="40" name="u_capacity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date" label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short Description" label="Short Description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type of Day" label="Type of Day" max_length="40" name="u_type_of_day" type="string"/>
+    </element>
+</database>

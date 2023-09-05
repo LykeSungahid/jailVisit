@@ -31,7 +31,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Schedule Appointments</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -41,7 +41,7 @@
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
-        <no_wishlist_v2>false</no_wishlist_v2>
+        <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -87,14 +87,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-21 02:05:12</sys_created_on>
         <sys_id>b3749393978031105018d48ef053af91</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Schedule Appointments</sys_name>
         <sys_package display_value="Jail Visit" source="x_1087004_jail_vis">44207756974031105018d48ef053afd4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jail Visit">44207756974031105018d48ef053afd4</sys_scope>
         <sys_update_name>sc_cat_item_producer_b3749393978031105018d48ef053af91</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-21 03:52:27</sys_updated_on>
+        <sys_updated_on>2023-07-31 07:06:30</sys_updated_on>
         <table_name>x_1087004_jail_vis_appointments</table_name>
         <taxonomy_topic/>
         <template/>
